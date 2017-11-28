@@ -3,7 +3,7 @@ Snake game.
 Authors:
 <insert the names of your teammates here>
 '''
-
+[Ej, Andrew, Mardokai]
 import pygame
 import random
 import sys
@@ -255,5 +255,6 @@ def start_game():
         # does not progress too quickly.
         clock.tick(get_snake_speed(snake))
 
+        
 # Start the snake game.
 start_game()
